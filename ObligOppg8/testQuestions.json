@@ -1,85 +1,85 @@
 {"questions": [
-    {"title": "Does fetching objects a and b from API work?",
+    {"title": "When are you testing enough?",
         "answers": [
             {
-                "answer": "It only gets object a"
+                "answer": "When you're tired of writing code"
             },
             {
-                "anwwer": "It only gets object b"
+                "anwwer": "There is never enough testing"
             },
             {
-                "answer": "It gets none"
+                "answer": "Write tests when you're done"
             },
             {
-                "answer": "It gets both and works",
+                "answer": "Around 85% coverage, quality of the tests is important",
                 "correct": true
             }
         ],
         "helper" : {
-            "text": "Tells to what degree fetching object with api work"
+            "text": "You should aim for good tests, with good coverage"
         }
         
     },
-    {"title": "Is data being sendt when submitting from form?",
+    {"title": "What are two ways to wait for async functions in tests?",
         "answers": [
             {
-                "answer": "It is not"
+                "answer": "Message and Response"
             },
             {
-                "anwwer": "It is, but the format is wrong when fetching"
+                "anwwer": "Post and Fetch"
             },
             {
-                "answer": "It is, but it's missing information"
+                "answer": "You can't test async methods"
             },
             {
-                "answer": "It sends it correctly, and returns the correct object",
+                "answer": "Callbacks and Promises",
                 "correct": true
             }
         ],
         "helper" : {
-            "text": "Helps show what the problem is when sending a form"
+            "text": "You have to either wait for a function to call back, or promise to await a response"
         }
         
     },
-    {"title": "Does updating a property on a single object in db work?",
+    {"title": "When should you use a \"fake\"?",
         "answers": [
             {
-                "answer": "Crisis mode, it is affecting another object"
+                "answer": "When you want to trick the end-user"
             },
             {
-                "anwwer": "It is deleting the object and creating a new version, not updating the object"
+                "anwwer": "When you want to run a fake version of your website to test your navigation"
             },
             {
-                "answer": "It is not reaching the database"
+                "answer": "When you want to test you database"
             },
             {
-                "answer": "It updates the property correctly!",
+                "answer": "When you want to test functionality, but want an implementation that's faster and less taxing",
                 "correct": true
             }
         ],
         "helper" : {
-            "text": "Tells us how the updating is operating at the moment"
+            "text": "You sometimes want to test how things work before you want to decide how to use it."
         }
         
     },
-    {"title": "Does clicking the assigned PictureButton open a dialogue with the  \"assingedText\" property",
+    {"title": "What are the \"cheapest\" tests to write?",
         "answers": [
             {
-                "answer": "Does not open a dialogue box"
+                "answer": "UI tests, E2E"
             },
             {
-                "anwwer": "Dialogue box opens, but the text is always the same value"
+                "anwwer": "Integration tests"
             },
             {
-                "answer": "Dialogue box opens, but there is no text"
+                "answer": "Service tests"
             },
             {
-                "answer": "Dialogue box opens, and shows the correct assigned value",
+                "answer": "Unit tests",
                 "correct": true
             }
         ],
         "helper" : {
-            "text": "Helps test functionality in the web app without having to launch and manually test every time"
+            "text": "Testing one thing is usually easier than testing many"
         }
         
     }
