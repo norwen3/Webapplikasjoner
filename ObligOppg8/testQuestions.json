@@ -5,7 +5,7 @@
                 "answer": "When you're tired of writing code"
             },
             {
-                "anwwer": "There is never enough testing"
+                "answer": "There is never enough testing"
             },
             {
                 "answer": "Write tests when you're done"
@@ -26,7 +26,7 @@
                 "answer": "Message and Response"
             },
             {
-                "anwwer": "Post and Fetch"
+                "answer": "Post and Fetch"
             },
             {
                 "answer": "You can't test async methods"
@@ -47,7 +47,7 @@
                 "answer": "When you want to trick the end-user"
             },
             {
-                "anwwer": "When you want to run a fake version of your website to test your navigation"
+                "answer": "When you want to run a fake version of your website to test your navigation"
             },
             {
                 "answer": "When you want to test you database"
@@ -68,7 +68,7 @@
                 "answer": "UI tests, E2E"
             },
             {
-                "anwwer": "Integration tests"
+                "answer": "Integration tests"
             },
             {
                 "answer": "Service tests"
