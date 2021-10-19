@@ -1,0 +1,86 @@
+{"questions": [
+    {"title": "Does fetching objects a and b from API work?",
+        "answers": [
+            {
+                "answer": "It only gets object a"
+            },
+            {
+                "anwwer": "It only gets object b"
+            },
+            {
+                "answer": "It gets none"
+            },
+            {
+                "answer": "It gets both and works",
+                "correct": true
+            }
+        ],
+        "helper" : {
+            "text": "Tells to what degree fetching object with api work"
+        }
+        
+    },
+    {"title": "Is data being sendt when submitting from form?",
+        "answers": [
+            {
+                "answer": "It is not"
+            },
+            {
+                "anwwer": "It is, but the format is wrong when fetching"
+            },
+            {
+                "answer": "It is, but it's missing information"
+            },
+            {
+                "answer": "It sends it correctly, and returns the correct object",
+                "correct": true
+            }
+        ],
+        "helper" : {
+            "text": "Helps show what the problem is when sending a form"
+        }
+        
+    },
+    {"title": "Does updating a property on a single object in db work?",
+        "answers": [
+            {
+                "answer": "Crisis mode, it is affecting another object"
+            },
+            {
+                "anwwer": "It is deleting the object and creating a new version, not updating the object"
+            },
+            {
+                "answer": "It is not reaching the database"
+            },
+            {
+                "answer": "It updates the property correctly!",
+                "correct": true
+            }
+        ],
+        "helper" : {
+            "text": "Tells us how the updating is operating at the moment"
+        }
+        
+    },
+    {"title": "Does clicking the assigned PictureButton open a dialogue with the  \"assingedText\" property",
+        "answers": [
+            {
+                "answer": "Does not open a dialogue box"
+            },
+            {
+                "anwwer": "Dialogue box opens, but the text is always the same value"
+            },
+            {
+                "answer": "Dialogue box opens, but there is no text"
+            },
+            {
+                "answer": "Dialogue box opens, and shows the correct assigned value",
+                "correct": true
+            }
+        ],
+        "helper" : {
+            "text": "Helps test functionality in the web app without having to launch and manually test every time"
+        }
+        
+    }
+]}
